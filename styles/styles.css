@@ -1,1 +1,97 @@
-/* CSS */
+body {
+    margin: 0px;
+}
+
+/*achtergrond*/
+main {
+    background-image: url("https://pleasurable-ui-p9p8.onrender.com/assets/house-mouse.svg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* .today{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+/*tekstballon*/
+.wolkje {
+    position: absolute;
+    top: 14em;
+    left: 37vw;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5em;
+    height: 8.5em;
+
+
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;  */
+
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 80%, 55% 100%, 31% 80%, 0 80%);
+
+}
+
+/*kruisje*/
+.kruisje {
+    position: absolute;
+    left: 18em;
+    top: .7em;
+    background-color: rgb(255, 255, 255);
+}
+
+/*button let's do it*/
+.lessons {
+    position: absolute;
+    left: 5em;
+    bottom: 3.5em;
+    background-color: rgb(134, 97, 169);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/*muis*/
+.muis {
+    position: absolute;
+    bottom: 0px;
+    top: 25em;
+    left: 40vw;
+}
+
+/*button menu*/
+.menu {
+    position: absolute;
+    bottom: 2em;
+    right: 3em;
+}
+
+/*button menu*/
+button {
+    background-color: rgb(36, 36, 36);
+    border: none;
+}
+
+.hamburger{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+/*tekst in tekstballon*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: .2em;
+    font-weight: bold;
+}
