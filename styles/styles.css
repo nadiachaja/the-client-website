@@ -100,8 +100,8 @@ p {
 @media (min-width: 450px) {
 
     main{
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
 
     }
 
@@ -119,5 +119,16 @@ p {
 
   @media (min-width: 700px){
 
+    .muis{
+        grid-row: 3;
+        grid-column: 3;
+    }
+
+   .wolkje{
+    grid-row: 2;
+    grid-column: 3;
+    margin: -1em;
+    margin-top: 5em;
+   }
 
   }
