@@ -12,9 +12,9 @@ main {
     line-height: 1.5;
     display: grid;
     gap: 2em;
-    padding-top: 25px;
+    /* padding-top: 25px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; */
 }
 
 
@@ -40,7 +40,9 @@ main {
 .lessons {
     background-color: rgb(134, 97, 169);
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: .2em;
   
 
 
@@ -82,6 +84,8 @@ p {
 }
 
 
+
+
 @media (min-width: 450px) {
 
     main {
@@ -102,12 +106,12 @@ p {
     }
 
     .streepje {
-        width: 2.5em;
-        height: 2.5em;
+        width: 3em;
+        height: 3em;
     }
 }
 
-
+/* dimensions: surface duo*/
 @media (min-width: 500px){
 
     .muis{
@@ -127,36 +131,8 @@ p {
 }
 
 
-@media (min-width: 600px) {
 
-    main {
-        grid-template-columns: auto auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
-    }
-
-    .muis {
-        grid-row: 3;
-        grid-column: 1;
-        justify-self: start;
-    }
-
-    .wolkje {
-        grid-row: 2;
-        grid-column: 1;
-    }
-
-    .menu {
-        grid-row: 3;
-        grid-column: 3;
-        align-self: center;
-        justify-self: center;
-        margin-bottom: -12em;
-    }
-
-}
-
-
-
+/*tablet*/
 @media (min-width: 700px) {
 
     main {
@@ -180,6 +156,7 @@ p {
         grid-row: 4;
         grid-column: 5;
         justify-self: end;
+
     }
 
     .streepje {
@@ -187,16 +164,11 @@ p {
         height: 3.5em;
     }
 
-}
-
-
-
-@media (min-width: 800px) {
-
-    .menu {
-        grid-row: 3;
+    .lessons{
+        margin-left: 1em;
     }
 }
+
 
 
 @media (max-width: 800px) {
@@ -223,8 +195,8 @@ p {
         align-self: end;
         margin-bottom: -5em;
     }
-
 }
+
 
 
 @media (min-width: 900px) {
@@ -233,7 +205,9 @@ p {
         grid-row: 3;
         grid-column: 5;
         align-self: center;
-        justify-self: center;
+        justify-self: end;
+      margin-right: 3em;
+      margin-top: 4em;
 
     }
 
@@ -242,3 +216,118 @@ p {
         margin-left: 4em;
     }
 }
+
+
+
+
+
+
+/* 
+@media (min-width: 350px){
+
+    .wolkje{
+        margin-left: 3em;
+        margin-top: 4em;
+    }
+} */
+
+
+/* @media (min-width: 600px) {
+
+    main {
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .muis {
+        grid-row: 3;
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .wolkje {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .menu {
+        grid-row: 3;
+        grid-column: 3;
+        align-self: center;
+        justify-self: center;
+        margin-bottom: -12em;
+    }
+} */
+
+
+/* @media (min-width: 800px) {
+
+    .menu {
+        grid-row: 3;
+    }
+} */
+
+
+ /* @media (max-width: 1000px){
+
+    .menu{
+        align-self: center;
+        margin-bottom: -2em;
+    }
+
+    .wolkje{
+        margin-bottom: -11em;
+    }
+
+    .muis{
+        margin-bottom: -7em;
+    }
+} */
+
+/* @media (max-width: 1100px) {
+
+.wolkje{
+    grid-row: 1;
+    margin-bottom: -19em;
+    margin-left: -6em;
+}
+
+.muis{
+    margin-bottom: -18em;
+    margin-left: 1em;
+}
+
+.menu{
+    grid-row: 4;
+    margin-bottom: -6em;
+    margin-right: 1.5em;
+}
+
+.streepje{
+    width: 4em;
+    height: 4em;
+}
+} */
+
+ /* @media (max-width: 1300px) {
+
+.wolkje{
+    margin-left: -3em;
+    width: 18em;
+    height: 12em;
+}
+
+.streepje{
+    width: 4.5em;
+    height: 4.5em;
+}
+p{
+    font-size: 20px;
+}
+
+.lessons{
+    font-size: 25px;
+}
+}   */
+
+
