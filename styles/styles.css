@@ -11,8 +11,9 @@ main {
     background-size: cover;
     line-height: 1.5;
     display: grid;
+    grid-template-rows: auto auto auto;
     gap: 2em;
-   padding: 1em;
+   padding: 0;
    
 }
 
@@ -22,7 +23,7 @@ main {
     background-color: rgb(255, 255, 255);
     padding: 1.5em;
     height: 8.5em;
-    margin-left: 2em;
+    margin-left: 1.5em;
 
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 80%, 55% 100%, 31% 80%, 0 80%);
 
@@ -53,7 +54,6 @@ main {
 
 /*muis*/
 .muis {
-    /* grid-template-rows: auto auto auto auto;   */
     row-gap: 3em;
 } 
 
@@ -82,9 +82,21 @@ h1{
 }
 
 .info{
-    width: 320px;
+    width: 330px;
     margin: 0 auto;
+    grid-row: 2;
+    align-self: end;
+    margin-bottom: -4em;
 }
+
+.menu{
+    grid-row: 3;
+    justify-self: end;
+    align-self: end;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
 
 
 

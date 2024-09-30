@@ -91,15 +91,20 @@ h2 {
 }
 
 
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+
 button {
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50%;
     width: 5em;
     height: 5em;
-    position: absolute;
-    bottom: 2em;
-    right: 3em;
+ 
 }
 
 
@@ -107,5 +112,3 @@ svg {
     width: 30px;
     height: 30px;
 }
-
-@media (min-width: 450px) {}
