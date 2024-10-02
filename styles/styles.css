@@ -24,6 +24,7 @@ main {
     padding: 1.5em;
     height: 8.5em;
     margin-left: 1.5em;
+    position: relative;
 
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 80%, 55% 100%, 31% 80%, 0 80%);
 
@@ -35,8 +36,8 @@ main {
 .kruisje {
     background-color: rgb(255, 255, 255);
     position: absolute;
-    margin-left: 14em;
-    margin-top: -6em;
+    right: 1em;
+    top: 1em;
 }
 
 

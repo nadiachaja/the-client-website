@@ -13,7 +13,7 @@ main {
 
 h2 {
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(255, 255, 255);
     font-weight: normal;
 
@@ -131,4 +131,10 @@ button {
 svg {
     width: 30px;
     height: 30px;
+    margin-top: .3em;
+    padding-top: .2em;
+}
+
+a{
+    margin-bottom: -.4em;
 }
