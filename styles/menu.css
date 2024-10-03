@@ -122,9 +122,8 @@ footer {
     grid-template-rows: auto;
     align-self: end;
     margin-bottom: 2em;
-
-
 }
+
 
 /*button kruisje onderin plaatsing en grootte*/
 button {
@@ -137,7 +136,6 @@ button {
     justify-self: end;
     margin-right: 1.7em;
     margin-bottom: -.8em;
-
 }
 
 /*alle img in de section*/
@@ -146,6 +144,11 @@ svg {
     height: 30px;
     margin-top: .3em;
     padding-top: .2em;
+}
+
+
+svg:hover{
+    cursor: auto;
 }
 
 
