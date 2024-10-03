@@ -29,7 +29,10 @@ main {
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 80%, 55% 100%, 31% 80%, 0 80%);
 
     width: 205px;
+}
 
+.hide{
+    opacity: 0;
 }
 
 
@@ -77,6 +80,10 @@ h1 {
     font-weight: bold;
 }
 
+span{
+    display: block;
+}
+
 /*muis en wolkje samen*/
 .info {
     width: 330px;
@@ -108,5 +115,4 @@ li {
     align-self: end;
     margin-right: 1em;
     margin-bottom: 1em;
-
 }
