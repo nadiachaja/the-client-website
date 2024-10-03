@@ -14,7 +14,6 @@ main {
     grid-template-rows: auto auto auto;
     gap: 2em;
     padding: 0;
-
 }
 
 
@@ -30,6 +29,7 @@ main {
 
     width: 205px;
 }
+
 
 .hide{
     opacity: 0;
@@ -60,6 +60,7 @@ main {
     border-bottom-right-radius: 5px;
 }
 
+
 /*button kruisje*/
 button {
     border: none;
@@ -80,9 +81,11 @@ h1 {
     font-weight: bold;
 }
 
+
 span{
     display: block;
 }
+
 
 /*muis en wolkje samen*/
 .info {
@@ -93,6 +96,7 @@ span{
     margin-bottom: -4em;
 }
 
+
 /*wat om de hamburger menu zit*/
 .streepje {
     background-color: rgb(36, 36, 36);
@@ -101,12 +105,14 @@ span{
     height: 3.5em;
 }
 
+
 /*hamburger menu*/
 li {
     list-style-type: none;
     margin-right: 1em;
     margin-bottom: -1em;
 }
+
 
 /*hamburger menu plaatsing*/
 .menu {
