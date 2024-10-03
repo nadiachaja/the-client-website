@@ -13,8 +13,8 @@ main {
     display: grid;
     grid-template-rows: auto auto auto;
     gap: 2em;
-   padding: 0;
-   
+    padding: 0;
+
 }
 
 
@@ -33,7 +33,7 @@ main {
 }
 
 
-/*kruisje*/
+/*kruisje in de tekstballon*/
 .kruisje {
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -42,7 +42,7 @@ main {
 }
 
 
-/*button let's do it*/
+/*button let's do it in de tekstballon*/
 .lessons {
     background-color: rgb(134, 97, 169);
     color: rgb(255, 255, 255);
@@ -57,37 +57,28 @@ main {
     border-bottom-right-radius: 5px;
 }
 
-
-/*muis*/
-.muis {
-    row-gap: 3em;
-} 
-
-
 /*button kruisje*/
 button {
     border: none;
 }
 
 
-/*menu*/
-.streepje {
-    background-color: rgb(36, 36, 36);
-    border-radius: 50%;
-    width: 3.5em;
-    height: 3.5em;
+/*muis*/
+.muis {
+    row-gap: 3em;
 }
 
 
 /*tekst in tekstballon*/
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding: .2em;
     font-weight: bold;
 }
 
-.info{
+/*muis en wolkje samen*/
+.info {
     width: 330px;
     margin: 0 auto;
     grid-row: 2;
@@ -95,13 +86,27 @@ h1{
     margin-bottom: -4em;
 }
 
-.menu{
+/*wat om de hamburger menu zit*/
+.streepje {
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+/*hamburger menu*/
+li {
+    list-style-type: none;
+    margin-right: 1em;
+    margin-bottom: -1em;
+}
+
+/*hamburger menu plaatsing*/
+.menu {
     grid-row: 3;
     justify-self: end;
     align-self: end;
     margin-right: 1em;
     margin-bottom: 1em;
+
 }
-
-
-
