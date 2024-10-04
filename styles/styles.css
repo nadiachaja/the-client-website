@@ -6,7 +6,7 @@ body {
 /*achtergrond*/
 main {
     background-color: #3f92b6;
-    background-image: url("https://pleasurable-ui-p9p8.onrender.com/assets/house-mouse.svg");
+    background-image: url(../assets/house-mouse.svg); 
     height: 100vh;
     background-size: cover;
     line-height: 1.5;
