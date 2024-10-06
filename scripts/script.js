@@ -172,7 +172,7 @@ if (curHr >= 0 && curHr < 6) { // Tussen 0 en 5 (6 uur is niet inbegrepen)
 
 } else if (curHr < 18) {
     greetingText.textContent = "Good afternoon,";
-    subText.textContent = "Hope you're having a great day!";
+    subText.textContent = "Shall we start with a story?";
     goodnightMessage.style.display = "none"; // Verberg de boodschap
     lessonsLink.style.display = "inline"; // Toon de link
     greetingText.classList.remove("moved-down"); // Verwijder de klasse
@@ -180,7 +180,7 @@ if (curHr >= 0 && curHr < 6) { // Tussen 0 en 5 (6 uur is niet inbegrepen)
     
 } else {
     greetingText.textContent = "Good evening,";
-    subText.textContent = "How was your day?";
+    subText.textContent = "Shall we start with a story?";
     goodnightMessage.style.display = "none"; // Verberg de boodschap
     lessonsLink.style.display = "inline"; // Toon de link
     greetingText.classList.remove("moved-down"); // Verwijder de klasse
