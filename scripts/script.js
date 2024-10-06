@@ -186,3 +186,10 @@ if (curHr >= 0 && curHr < 6) { // Tussen 0 en 5 (6 uur is niet inbegrepen)
     greetingText.classList.remove("moved-down"); // Verwijder de klasse
     subText.classList.remove("moved-down"); // Verwijder de klasse
 }
+
+
+
+
+
+
+
