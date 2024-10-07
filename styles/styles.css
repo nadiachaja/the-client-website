@@ -32,6 +32,7 @@ main {
 }
 
 
+/*wolkje verdwijnt als je op het kruisje klikt*/
 .hide{
     opacity: 0;
 }
@@ -82,7 +83,7 @@ h1 {
     font-weight: bold;
 }
 
-
+/*tekst in wolkje*/
 span{
     display: block;
 }
@@ -131,6 +132,7 @@ li {
     transition: transform 0.5s ease; /* Voegt een animatie toe voor de beweging */
 }
 
+/*extra tekst die na 12 uur 's nachts komt*/
 .goodnight-message {
     display: none; /* Standaard verbergen */
     margin-top: -1.5em; /* Optionele marge */
@@ -139,6 +141,7 @@ li {
     font-size: 15px;
 }
 
+/*tekst tomorrow na 12 uur 's nachts*/
 .purple {
     color: purple; /* Stel de kleur in op paars */
     font-size: 17px;

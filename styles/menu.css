@@ -1,7 +1,8 @@
 body {
     background-color: rgb(36, 36, 36);
     margin: 0px;
-    height: 100dvh;
+    /* height: 100dvh; */
+    height: 99dvh;
     display: grid;
     grid-template-rows: 1fr max-content;
 }
@@ -115,10 +116,8 @@ section:hover {
 
 /*button kruisje onderin plaatsing*/
 footer {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    align-self: end;
+    display: flex;
+    flex-flow: row-reverse;
     margin-bottom: 2em;
 }
 
