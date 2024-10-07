@@ -11,27 +11,33 @@ header {
     z-index: 9;
     top: -100%;
 
-    height:100dvh;
+    height: 100dvh;
     margin: 0px;
     background-color: rgb(36, 36, 36);
-    /* height: 100dvh; */
     transition: transform 0.4s ease-out;
 }
 
+/*richt van waar het menu vandaan komt*/
 header.is-active {
     transform: translateY(100%);
 }
 
-.menu-list { /* <ul> */
-    display: grid;
+/* <ul> */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 97vh;
+    /* display: grid; */
     gap: 2em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr max-content;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; */
     justify-items: center;
-    align-self: center;
+    /* align-self: center; */
     padding: 0 3rem;
+
 }
+
 .menu li {
     display: flex;
     flex-direction: column;
@@ -39,47 +45,89 @@ header.is-active {
     border-radius: 10px;
     width: 100%;
     grid-column: 1;
-    &:hover {
-        border: .5px solid white;
-        filter: brightness(120%);
-    }
 }
+
+
+/*hovers over li*/
+.home:hover {
+    border: .5px solid white;
+    filter: brightness(120%);
+}
+
+.testing:hover {
+    border: .5px solid white;
+    filter: brightness(120%);
+}
+
+.statistics:hover {
+    border: .5px solid white;
+    filter: brightness(120%);
+}
+
+.lessons-nav:hover {
+    border: .5px solid white;
+    filter: brightness(120%);
+}
+
+.profile:hover {
+    border: .5px solid white;
+    filter: brightness(120%);
+}
+
+
 .menu a {
     display: block;
     margin-bottom: 0;
-    /* width: 7em;
-    height: 5em; */
+    width: 5em;
+    height: 5em;
 }
-.menu .lessons {
+
+/* .menu .lessons {
     background-color: #954be2;
-}
+} */
+
 .menu .home {
     background-color: #3f92b6;
 }
+
 .menu .testing {
     background-color: #599ae7;
     grid-column: 2;
 }
+
 .menu .statistics {
     background-color: #06a192;
     grid-column: 2;
 }
+
 .menu .profile {
     background-color: #fd8c73;
 }
+
 .menu .lessons-nav {
     background-color: rgb(134, 97, 169);
 }
 
-h2 {
+/*tekst in li menu*/
+.kopje {
+    display: flex;
+    justify-content: center;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 16px;
     color: rgb(255, 255, 255);
     font-weight: normal;
+    margin-top: .4em;
 }
 
 
+/* h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+} */
 
+/*plaatsing hamburger button en geen grijze ruimte boven home*/
 .menu-trigger {
     position: fixed;
     bottom: 1rem;
@@ -90,6 +138,7 @@ h2 {
     background: none;
 }
 
+/*kruisje onder hamburger button*/
 .menu-trigger .open {
     display: none;
 
@@ -103,8 +152,31 @@ header svg {
     padding-top: .2em;
 }
 
+/*svg plaatsing*/
+.svg-home {
+    margin-left: 1.5em;
+}
+
+.svg-testing {
+    margin-left: 1.5em;
+}
+
+.svg-lessons-nav {
+    margin-left: 1.5em;
+}
+
+.svg-statistics {
+    margin-left: 1.5em;
+}
+
+.svg-profile {
+    margin-left: 1.5em;
+}
+
+/*tekst in menu*/
 a {
     margin-bottom: -.4em;
+    text-decoration: none;
 }
 
 /* EINDE MENU */
@@ -116,7 +188,7 @@ a {
 /*achtergrond*/
 main {
     background-color: #3f92b6;
-    background-image: url(../assets/house-mouse.svg); 
+    background-image: url(../assets/house-mouse.svg);
     height: 100vh;
     background-size: cover;
     line-height: 1.5;
@@ -142,7 +214,7 @@ main {
 
 
 /*wolkje verdwijnt als je op het kruisje klikt*/
-.hide{
+.hide {
     opacity: 0;
 }
 
@@ -157,7 +229,15 @@ main {
 
 
 /*button let's do it in de tekstballon*/
-
+.lessons {
+    background-color: rgb(134, 97, 169);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding: .2em;
+    border-radius: 5px;
+    margin-left: 2.5em;
+}
 
 
 /*button kruisje*/
@@ -181,7 +261,7 @@ h1 {
 }
 
 /*tekst in wolkje*/
-span{
+span {
     display: block;
 }
 
@@ -200,20 +280,24 @@ span{
 .streepje {
     background-color: rgb(36, 36, 36);
     border-radius: 50%;
-    width: 3.5em;
-    height: 3.5em;
+    width: 4.5em;
+    height: 4.5em;
 }
 
 /*wolkje na 12 uur 's nachts*/
 .moved-down {
-    transform: translateY(-.8em); /* Pas de waarde aan voor meer of minder verschuiving */
-    transition: transform 0.5s ease; /* Voegt een animatie toe voor de beweging */
+    transform: translateY(-.8em);
+    /* Pas de waarde aan voor meer of minder verschuiving */
+    transition: transform 0.5s ease;
+    /* Voegt een animatie toe voor de beweging */
 }
 
 /*extra tekst die na 12 uur 's nachts komt*/
 .goodnight-message {
-    display: none; /* Standaard verbergen */
-    margin-top: -1.5em; /* Optionele marge */
+    display: none;
+    /* Standaard verbergen */
+    margin-top: -1.5em;
+    /* Optionele marge */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -221,7 +305,8 @@ span{
 
 /*tekst tomorrow na 12 uur 's nachts*/
 .purple {
-    color: purple; /* Stel de kleur in op paars */
+    color: purple;
+    /* Stel de kleur in op paars */
     font-size: 17px;
 }
 
@@ -240,7 +325,7 @@ span{
 
 
 /*hamburger menu plaatsing*/
- /* .menu {
+/* .menu {
     grid-row: 3;
     justify-self: end;
     align-self: end;
