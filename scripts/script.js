@@ -1,3 +1,18 @@
+// selecteer de menu-trigger
+
+const menuTrigger = document.querySelector('.menu-trigger')
+// console.log(menuTrigger)
+// voeg event listener toe op menutrigger om de klik te ondervangen
+menuTrigger.addEventListener('click', function() {
+    // Als er op de menutrigger geklikt wordt willen we dat een class getoggled wordt op de header
+    const header = document.querySelector('header.menu')
+    // console.log(header);
+    header.classList.toggle('is-active')
+
+    
+})
+
+
 
 /**wolkje verdwijnen als je op het kruisje likt */
 var button = document.querySelector(".kruisje")

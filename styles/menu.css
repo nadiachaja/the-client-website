@@ -129,8 +129,6 @@ button {
     border-radius: 50%;
     width: 5em;
     height: 5em;
-    grid-column: 2;
-    justify-self: end;
     margin-right: 1.7em;
     margin-bottom: -.8em;
 }
