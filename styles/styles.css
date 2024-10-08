@@ -15,6 +15,7 @@ header {
     margin: 0px;
     background-color: rgb(36, 36, 36);
     transition: transform 0.4s ease-out;
+    overflow: visible;
 }
 
 /*richt van waar het menu vandaan komt*/
