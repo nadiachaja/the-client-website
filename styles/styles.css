@@ -31,7 +31,6 @@ header.is-active {
     gap: 2em;
     justify-items: center;
     padding: 0 4rem;
-
 }
 
 .menu li {
@@ -42,7 +41,6 @@ header.is-active {
     width: 100%;
     grid-column: 1;
 }
-
 
 /*hovers over li*/
 .home:hover {
@@ -70,17 +68,13 @@ header.is-active {
     filter: brightness(120%);
 }
 
-
+/*menu kopjes*/
 .menu a {
     display: block;
     margin-bottom: 0;
     width: 5em;
     height: 5em;
 }
-
-/* .menu .lessons {
-    background-color: #954be2;
-} */
 
 .menu .home {
     background-color: #3f92b6;
@@ -108,20 +102,12 @@ header.is-active {
 .kopje {
     display: flex;
     justify-content: center;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: rgb(255, 255, 255);
     font-weight: normal;
     margin-top: .4em;
 }
-
-
-/* h2 {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
-} */
 
 /*plaatsing hamburger button en geen grijze ruimte boven home*/
 .menu-trigger {
@@ -137,7 +123,6 @@ header.is-active {
 /*kruisje onder hamburger button*/
 .menu-trigger .open {
     display: none;
-
 }
 
 /*alle img in de section*/
@@ -151,23 +136,29 @@ header svg {
 /*svg plaatsing*/
 .svg-home {
     margin-left: 1.5em;
+    margin-bottom: .2em;
 }
 
 .svg-testing {
     margin-left: 1.5em;
+    margin-bottom: .2em;
 }
 
 .svg-lessons-nav {
     margin-left: 1.5em;
+    margin-bottom: .2em;
 }
 
 .svg-statistics {
     margin-left: 1.5em;
+    margin-bottom: .2em;
 }
 
 .svg-profile {
     margin-left: 1.5em;
+    margin-bottom: .2em;
 }
+
 
 /*tekst in menu*/
 a {
@@ -228,11 +219,18 @@ main {
 .lessons {
     background-color: rgb(134, 97, 169);
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
     text-decoration: none;
-    padding: .2em;
+    padding: .5em;
     border-radius: 5px;
-    margin-left: 2.5em;
+    margin-left: 3em;
+}
+
+
+.lessons:hover {
+    background-color: #6d3a91;
+
 }
 
 
@@ -301,7 +299,7 @@ span {
 
 /*tekst tomorrow na 12 uur 's nachts*/
 .purple {
-    color: purple;
+    color: rgb(134, 97, 169);
     /* Stel de kleur in op paars */
     font-size: 17px;
 }
