@@ -56,6 +56,8 @@ Good evening van 6 uur ’s avonds t/m 12 uur ’s nachts.
 
 
 Na 12 uur ’s nachts  veranderd de tekst in Good night en de tekst eronder veranderd in It’s time to sleep en I see you tomorrow dat is t/m 6 uur ’s ochtends.
+<img width="540" alt="home good night" src="https://github.com/user-attachments/assets/fadfcdb2-49ea-440c-8211-3627ba2da57b">
+
 
 
 
