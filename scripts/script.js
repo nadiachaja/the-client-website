@@ -68,6 +68,13 @@ if (curHr >= 0 && curHr < 6) { // Tussen 0 en 5 (6 uur is niet inbegrepen)
 
 
 
+
+
+
+
+
+
+
 /**text in wolkje dat de tijd veranderd na 12 uur en 18 uur */
 
 // var today = new Date();
@@ -106,5 +113,4 @@ if (curHr >= 0 && curHr < 6) { // Tussen 0 en 5 (6 uur is niet inbegrepen)
 //     greetingText.textContent = "Good evening,";
 //     subText.textContent = "Shall we start with a story?";
 // }
-
 
